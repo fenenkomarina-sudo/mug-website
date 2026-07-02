@@ -1,282 +1,365 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FN Print - Друк на чашках | Якісні чашки з вашим дизайном</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FN Print — професійна фотографія, друк на чашках, весільні та сімейні сесії в Дніпрі. 15 років досвіду.">
+  <meta name="keywords" content="фотографія, друк на чашках, Дніпро, FN Print, сублімаційний друк">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>FN Print — Фотографія та друк на чашках | Дніпро</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- НАВІГАЦІЯ -->
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">
-      <i class="fas fa-camera"></i>
-      <span>FN Print</span>
+  <a class="skip-link" href="#main">Перейти до контенту</a>
+
+  <nav class="navbar" id="navbar" aria-label="Головна навігація">
+    <div class="nav-container">
+      <a href="#" class="logo" aria-label="FN Print — на головну">
+        <i class="fas fa-camera" aria-hidden="true"></i>
+        <span>FN Print</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Відкрити меню" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navMenu">
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#portfolio">Портфоліо</a></li>
+        <li><a href="#why">Чому ми</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+        <li><a href="#order" class="nav-btn">Замовити</a></li>
+      </ul>
     </div>
-    <ul class="nav-links">
-      <li><a href="#services">Послуги</a></li>
-      <li><a href="#portfolio">Портфоліо</a></li>
-      <li><a href="#why">Чому ми?</a></li>
-      <li><a href="#order" class="nav-btn">Замовити</a></li>
-    </ul>
-  </div>
-</nav>
+  </nav>
 
-<!-- HERO СЕКЦІЯ -->
-<header class="hero">
-  <div class="hero-content">
-    <h1 class="hero-title">Професійна фотографія премію-класу</h1>
-    <p class="hero-subtitle">Високоякісний друк, колірне коректування та цифрове редагування ваших найцінніших моментів. Також друк на чашках та інших матеріалах</p>
-    <a class="btn btn-primary btn-lg" href="#order">
-      <i class="fas fa-camera"></i> Замовити сесію
-    </a>
-  </div>
-  <div class="hero-decoration">
-    <div class="cup-animation">📸</div>
-  </div>
-</header>
-
-<!-- ПОСЛУГИ -->
-<section id="services" class="services">
-  <div class="container">
-    <h2 class="section-title">Наші послуги</h2>
-    <div class="services-grid">
-      <div class="service-card fade-in">
-        <div class="service-icon">📷</div>
-        <h3>Портретна фотографія</h3>
-        <p>Професійні портрети найвищої якості з студійним освітленням</p>
-      </div>
-      <div class="service-card fade-in">
-        <div class="service-icon">💒</div>
-        <h3>Весільне фотографування</h3>
-        <p>Найважливіший день вашого життя - зафіксовано професійно</p>
-      </div>
-      <div class="service-card fade-in">
-        <div class="service-icon">👨‍👩‍👧</div>
-        <h3>Сімейні сесії</h3>
-        <p>Чарівні моменти разом з близькими на професійних фотографіях</p>
-      </div>
-      <div class="service-card fade-in">
-        <div class="service-icon">🖼️</div>
-        <h3>Друк та оформлення</h3>
-        <p>Преміальний друк на альбомному папері, картоні та холсті</p>
-      </div>
-      <div class="service-card fade-in">
-        <div class="service-icon">☕</div>
-        <h3>Друк на чашках</h3>
-        <p>Яскравий сублімаційний друк ваших фото на якісних чашках</p>
-      </div>
-      <div class="service-card fade-in">
-        <div class="service-icon">💾</div>
-        <h3>Цифрові альбоми</h3>
-        <p>Красиво оформлені цифрові колекції ваших фото</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ПОРТФОЛІО / ГАЛЕРЕЯ -->
-<section id="portfolio" class="portfolio">
-  <div class="container">
-    <h2 class="section-title">Наші роботи</h2>
-    <div class="gallery">
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
-          <i class="fas fa-heart"></i>
-        </div>
-        <h4>Весільна колекція</h4>
-        <p>Найчарівніші моменти вашої весілля</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #2d2d2d 0%, #3d3d3d 100%);">
-          <i class="fas fa-users"></i>
-        </div>
-        <h4>Портретні сесії</h4>
-        <p>Професійні портрети з характером</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
-          <i class="fas fa-camera"></i>
-        </div>
-        <h4>Сімейні фото</h4>
-        <p>Гарячі моменти разом з близькими</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #2d2d2d 0%, #3d3d3d 100%);">
-          <i class="fas fa-child"></i>
-        </div>
-        <h4>Дитячі портрети</h4>
-        <p>Чарівні посмішки ваших дітей</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);">
-          <i class="fas fa-mug-hot"></i>
-        </div>
-        <h4>Друк на чашках</h4>
-        <p>Ваші фото на якісних чашках сублімаційним друком</p>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-image" style="background: linear-gradient(135deg, #2d2d2d 0%, #3d3d3d 100%);">
-          <i class="fas fa-book"></i>
-        </div>
-        <h4>Фотокниги</h4>
-        <p>Преміальне оформлення в твердій палітурці</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ЧОМУ ОБИРАЮТЬ НАС -->
-<section id="why" class="why-us">
-  <div class="container">
-    <h2 class="section-title">Чому обирають FN Print</h2>
-    <div class="why-grid">
-      <div class="why-card">
-        <div class="why-number">1</div>
-        <h3>15 років досвіду</h3>
-        <p>Понад півтора десятків років професійного фотографування та друку в Україні</p>
-      </div>
-      <div class="why-card">
-        <div class="why-number">2</div>
-        <h3>Преміальне обладнання</h3>
-        <p>Використовуємо найсучасніші камери, об'єктиви та студійне обладнання</p>
-      </div>
-      <div class="why-card">
-        <div class="why-number">3</div>
-        <h3>Професійна команда</h3>
-        <p>Досвідчені фотографи та колористи з сертифікацією від ведучих брендів</p>
-      </div>
-      <div class="why-card">
-        <div class="why-number">4</div>
-        <h3>Преміальний друк</h3>
-        <p>Колірний друк на матеріалах найвищої якості - папір, картон, холст, чашки</p>
-      </div>
-      <div class="why-card">
-        <div class="why-number">5</div>
-        <h3>Студія в центрі</h3>
-        <p>Зручне розташування: вул. Героїв Дніпра, Дніпро</p>
-      </div>
-      <div class="why-card">
-        <div class="why-number">6</div>
-        <h3>100% задоволення</h3>
-        <p>Гарантія якості на всі роботи. Повна переробка якщо не задоволені</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ФОРМА ЗАМОВЛЕННЯ -->
-<section id="order" class="order-section">
-  <div class="container">
-    <h2 class="section-title">Форма замовлення</h2>
-    <div class="order-wrapper">
-      <form class="order-form" id="orderForm">
-        <div class="form-group">
-          <label for="name">Ваше ім'я *</label>
-          <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я">
-        </div>
-        <div class="form-group">
-          <label for="phone">Телефон *</label>
-          <input type="tel" id="phone" name="phone" required placeholder="+38 (0XX) XXX-XX-XX">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="your@email.com">
-        </div>
-        <div class="form-group">
-          <label for="type">Тип чашки *</label>
-          <select id="type" name="type" required>
-            <option value="">Виберіть послугу</option>
-            <option value="portrait">Портретна сесія</option>
-            <option value="wedding">Весільне фотографування</option>
-            <option value="family">Сімейна сесія</option>
-            <option value="print">Друк та оформлення</option>
-            <option value="mug">Друк на чашках</option>
-            <option value="other">Інше</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="description">Опис проекту *</label>
-          <textarea id="description" name="description" required placeholder="Опишіть вашу ідею, дату, ваші побажання..." rows="4"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg">
-          <i class="fas fa-paper-plane"></i> Відправити замовлення
-        </button>
-      </form>
-      <div class="order-info">
-        <h3>Про наші послуги</h3>
-        <div class="info-item">
-          <i class="fas fa-clock"></i>
-          <div>
-            <strong>Час обробки</strong>
-            <p>2-5 робочих днів</p>
+  <main id="main">
+    <header class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-badge">Студія в центрі Дніпра</span>
+          <h1 class="hero-title">Професійна фотографія преміум-класу</h1>
+          <p class="hero-subtitle">Високоякісний друк, колірне коректування та цифрове редагування ваших найцінніших моментів. Також друк на чашках та інших матеріалах.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#order">
+              <i class="fas fa-camera" aria-hidden="true"></i> Замовити сесію
+            </a>
+            <a class="btn btn-outline btn-lg" href="#portfolio">
+              <i class="fas fa-images" aria-hidden="true"></i> Наші роботи
+            </a>
           </div>
         </div>
-        <div class="info-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <div>
-            <strong>Студія</strong>
-            <p>вул. Героїв Дніпра, Дніпро</p>
-          </div>
-        </div>
-        <div class="info-item">
-          <i class="fas fa-star"></i>
-          <div>
-            <strong>Преміальність</strong>
-            <p>Матеріали найвищої якості</p>
-          </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card hero-card--1"><i class="fas fa-mug-hot"></i></div>
+          <div class="hero-card hero-card--2"><i class="fas fa-heart"></i></div>
+          <div class="hero-card hero-card--3"><i class="fas fa-camera"></i></div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </header>
 
-<!-- КОНТАКТИ -->
-<section class="contacts">
-  <div class="container">
-    <h2 class="section-title">Зв'яжіться з FN Print</h2>
-    <div class="contact-info">
-      <div class="contact-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <p><strong>Адреса:</strong><br>вул. Героїв Дніпра, Дніпро</p>
+    <section class="stats" aria-label="Статистика">
+      <div class="container stats-grid">
+        <div class="stat-item reveal">
+          <strong>15+</strong>
+          <span>років досвіду</span>
+        </div>
+        <div class="stat-item reveal">
+          <strong>5000+</strong>
+          <span>задоволених клієнтів</span>
+        </div>
+        <div class="stat-item reveal">
+          <strong>2–5</strong>
+          <span>днів на обробку</span>
+        </div>
+        <div class="stat-item reveal">
+          <strong>100%</strong>
+          <span>гарантія якості</span>
+        </div>
       </div>
-      <div class="contact-item">
-        <i class="fas fa-phone"></i>
-        <p><strong>Телефон:</strong><br><a href="tel:+380XXXXXXXXX">+38 (0XX) XXX-XX-XX</a></p>
-      </div>
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i>
-        <p><strong>Email:</strong><br><a href="mailto:info@fnprint.ua">info@fnprint.ua</a></p>
-      </div>
-    </div>
-    <div class="social-links">
-      <a href="https://t.me/fnprint" target="_blank" class="social-btn telegram">
-        <i class="fab fa-telegram"></i>
-        <span>Telegram</span>
-      </a>
-      <a href="viber://chat?number=%2B38XXXXXXXXX" target="_blank" class="social-btn viber">
-        <i class="fab fa-viber"></i>
-        <span>Viber</span>
-      </a>
-      <a href="https://instagram.com/fnprint" target="_blank" class="social-btn instagram">
-        <i class="fab fa-instagram"></i>
-        <span>Instagram</span>
-      </a>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="container">
-    <p>&copy; 2026 <strong>FN Print</strong> — Друк на чашках. Всі права захищені.</p>
-    <p class="footer-tagline">Зберігаємо ваші найдорогоцінніші моменти з любов'ю</p>
-  </div>
-</footer>
+    <section id="services" class="services section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Що ми пропонуємо</span>
+          <h2 class="section-title">Наші послуги</h2>
+          <p class="section-desc">Від студійної зйомки до сублімаційного друку — повний цикл для ваших спогадів.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">📷</div>
+            <h3>Портретна фотографія</h3>
+            <p>Професійні портрети найвищої якості з студійним освітленням</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">💒</div>
+            <h3>Весільне фотографування</h3>
+            <p>Найважливіший день вашого життя — зафіксовано професійно</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">👨‍👩‍👧</div>
+            <h3>Сімейні сесії</h3>
+            <p>Чарівні моменти разом з близькими на професійних фотографіях</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">🖼️</div>
+            <h3>Друк та оформлення</h3>
+            <p>Преміальний друк на альбомному папері, картоні та холсті</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">☕</div>
+            <h3>Друк на чашках</h3>
+            <p>Яскравий сублімаційний друк ваших фото на якісних чашках</p>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">💾</div>
+            <h3>Цифрові альбоми</h3>
+            <p>Красиво оформлені цифрові колекції ваших фото</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<script src="script.js"></script>
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Портфоліо</span>
+          <h2 class="section-title">Наші роботи</h2>
+        </div>
+        <div class="gallery">
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--1">
+              <i class="fas fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Весільна колекція</h4>
+              <p>Найчарівніші моменти вашого весілля</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--2">
+              <i class="fas fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Портретні сесії</h4>
+              <p>Професійні портрети з характером</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--3">
+              <i class="fas fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Сімейні фото</h4>
+              <p>Теплі моменти разом з близькими</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--4">
+              <i class="fas fa-child" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Дитячі портрети</h4>
+              <p>Чарівні посмішки ваших дітей</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--5">
+              <i class="fas fa-mug-hot" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Друк на чашках</h4>
+              <p>Ваші фото на якісних чашках сублімаційним друком</p>
+            </div>
+          </article>
+          <article class="gallery-item reveal">
+            <div class="gallery-image gallery-image--6">
+              <i class="fas fa-book" aria-hidden="true"></i>
+            </div>
+            <div class="gallery-body">
+              <h4>Фотокниги</h4>
+              <p>Преміальне оформлення в твердій палітурці</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="why-us section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Переваги</span>
+          <h2 class="section-title">Чому обирають FN Print</h2>
+        </div>
+        <div class="why-grid">
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">1</div>
+            <h3>15 років досвіду</h3>
+            <p>Понад півтора десятків років професійного фотографування та друку в Україні</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">2</div>
+            <h3>Преміальне обладнання</h3>
+            <p>Використовуємо найсучасніші камери, об'єктиви та студійне обладнання</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">3</div>
+            <h3>Професійна команда</h3>
+            <p>Досвідчені фотографи та колористи з сертифікацією від ведучих брендів</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">4</div>
+            <h3>Преміальний друк</h3>
+            <p>Колірний друк на матеріалах найвищої якості — папір, картон, холст, чашки</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">5</div>
+            <h3>Студія в центрі</h3>
+            <p>Зручне розташування: вул. Героїв Дніпра, Дніпро</p>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-number" aria-hidden="true">6</div>
+            <h3>100% задоволення</h3>
+            <p>Гарантія якості на всі роботи. Повна переробка, якщо не задоволені</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="order-section section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Замовлення</span>
+          <h2 class="section-title">Форма замовлення</h2>
+          <p class="section-desc">Заповніть форму — ми зв'яжемося з вами протягом робочого дня.</p>
+        </div>
+        <div class="order-wrapper">
+          <form class="order-form reveal" id="orderForm" novalidate>
+            <div class="form-group">
+              <label for="name">Ваше ім'я *</label>
+              <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Телефон *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+38 (0XX) XXX-XX-XX" autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="type">Тип послуги *</label>
+              <select id="type" name="type" required>
+                <option value="">Виберіть послугу</option>
+                <option value="portrait">Портретна сесія</option>
+                <option value="wedding">Весільне фотографування</option>
+                <option value="family">Сімейна сесія</option>
+                <option value="print">Друк та оформлення</option>
+                <option value="mug">Друк на чашках</option>
+                <option value="other">Інше</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="description">Опис проекту *</label>
+              <textarea id="description" name="description" required placeholder="Опишіть вашу ідею, дату, побажання..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i> Відправити замовлення
+            </button>
+          </form>
+          <aside class="order-info reveal">
+            <h3>Про наші послуги</h3>
+            <div class="info-item">
+              <i class="fas fa-clock" aria-hidden="true"></i>
+              <div>
+                <strong>Час обробки</strong>
+                <p>2–5 робочих днів</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              <div>
+                <strong>Студія</strong>
+                <p>вул. Героїв Дніпра, Дніпро</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-star" aria-hidden="true"></i>
+              <div>
+                <strong>Преміальність</strong>
+                <p>Матеріали найвищої якості</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-shield-alt" aria-hidden="true"></i>
+              <div>
+                <strong>Гарантія</strong>
+                <p>Повна переробка при невдоволенні результатом</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Контакти</span>
+          <h2 class="section-title">Зв'яжіться з FN Print</h2>
+        </div>
+        <div class="contact-info">
+          <div class="contact-item reveal">
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+            <p><strong>Адреса</strong><br>вул. Героїв Дніпра, Дніпро</p>
+          </div>
+          <div class="contact-item reveal">
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <p><strong>Телефон</strong><br><a href="tel:+380XXXXXXXXX">+38 (0XX) XXX-XX-XX</a></p>
+          </div>
+          <div class="contact-item reveal">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <p><strong>Email</strong><br><a href="mailto:info@fnprint.ua">info@fnprint.ua</a></p>
+          </div>
+        </div>
+        <div class="social-links reveal">
+          <a href="https://t.me/fnprint" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <i class="fab fa-telegram" aria-hidden="true"></i>
+            <span>Telegram</span>
+          </a>
+          <a href="viber://chat?number=%2B38XXXXXXXXX" class="social-btn">
+            <i class="fab fa-viber" aria-hidden="true"></i>
+            <span>Viber</span>
+          </a>
+          <a href="https://instagram.com/fnprint" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 <strong>FN Print</strong> — Фотографія та друк на чашках. Всі права захищені.</p>
+      <p class="footer-tagline">Зберігаємо ваші найдорогоцінніші моменти з любов'ю</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Прокрутити вгору" hidden>
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
